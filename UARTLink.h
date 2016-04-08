@@ -6,7 +6,6 @@
 
 
 #define BAUD_RATE 250000
-//#define BAUD_RATE 115200
 #define MAX_BUFFER_SIZE 256
 
 #include <Arduino.h>

@@ -1,12 +1,6 @@
 #ifndef UART_MANAGER_H_
-#define UART_MANAGER__H_
+#define UART_MANAGER_H_
 
-//#define APPID       "remote"
-//#define KEY     "4qKcSl45vPG8Wcr"
-//#define SECRET  "GnUEhY2a6jVbHdii7WuuXIamC2E7sh"
-
-//#define KEY     "wGQS0KpLZ0sMXTx"
-//#define SECRET  "GZKHuuefLhUv0UrU66HBAaVWmsa0LD"
 
 #define WIFI_COMMAND "wifi"
 #define CLIENT_COMMAND "client"
