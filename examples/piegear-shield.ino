@@ -1,9 +1,8 @@
-
 #include <ESP8266WiFi.h>
-
-#include "UARTLink.h"
-#include "UARTManager.h"
-#include <Microgear.h>
+#include <EEPROM.h>
+#include <MicroGear.h>
+#include <UARTLink.h>
+#include <UARTManager.h>
 
 WiFiClient client;
 UARTLink uart(&Serial);

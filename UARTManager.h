@@ -1,5 +1,5 @@
 #ifndef UART_MANAGER_H_
-#define UART_MANAGER__H_
+#define UART_MANAGER_H_
 
 
 #define WIFI_COMMAND "wifi"
