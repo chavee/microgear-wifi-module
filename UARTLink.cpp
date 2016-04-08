@@ -57,18 +57,7 @@ void UARTLink::split_byte()
   u8_param1[index_u8_param1] = '\0';
   u8_param2[index_u8_param2] = '\0';
   write_size = atoi((char*) u8_param2);
-  /*
-  Serial.println(write_size);
 
-  for (int i = 0; i < write_size; i++) {
-
-    Serial.print((char)u8_param1[i]);
-  }
-
-
-
-  Serial.print("\n");
-*/
 }
 
 void UARTLink::split_byte3()
@@ -147,12 +136,7 @@ void UARTLink::loop()
           prev_char1 = ' ';
           prev_char2 = ' ';
 
-          //Serial.println((char*)incomeBuffer);
-          /*
-          memset(param1, 0, sizeof(param1));
-          memset(param2, 0, sizeof(param2));
-          memset(param3, 0, sizeof(param3));
-          */
+    
 
           count_para = 0;
           if(!strcmp(strtok((char*)incomeBuffer,";"),ESP_HEADER)){
@@ -188,13 +172,6 @@ void UARTLink::loop()
             }
 
 
-            //content = strtok(NULL,"\n");
-            //return true;
-            //Serial.println((char*)command);
-            //Serial.println((char*)method);
-            //Serial.println(param1);
-            //Serial.println(param2);
-            //Serial.println(param3);
             isMSG = true;
 
           }

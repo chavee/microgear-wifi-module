@@ -3,7 +3,6 @@
 
 uint8_t UARTManager::isCommand()
 {
-  //method = strtok(NULL,";");
   char* command = link->getMethod();
   if (!strcmp(command,WIFI_BEGIN))  return WIFI_COMMAND_ID;
   if (!strcmp(command,WIFI_IP))     return CLIENT_COMMAND_ID;
